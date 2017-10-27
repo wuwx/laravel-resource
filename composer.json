@@ -1,0 +1,24 @@
+{
+    "name": "wuwx/laravel-resource",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wu Weixin",
+            "email": "wuweixin@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wuwx\\LaravelResource\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wuwx\\LaravelResource\\LaravelResourceServiceProvider"
+            ]
+        }
+    }
+}
